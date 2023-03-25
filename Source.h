@@ -20,7 +20,7 @@ public:
 	string getname() { return Name; }
 	int getid() { return ID; }
 	int getAge() { return Age; }
-	void printinfo() { cout << " Nothing to print dh abstract y 5awal"; }
+	void printinfo() { cout << " abstract class " ; }
 
 };
 
