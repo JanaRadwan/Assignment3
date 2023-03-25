@@ -143,7 +143,7 @@ public:
 	}
 	T pop(T& x) {
 		if (IsEmpty()) {
-			cout << "Error: the queue is empty." << endl; // 5aleha t return el element 3ashan a cout it 
+			cout << "Error: the queue is empty." << endl; 
 			//return false;
 
 		}
@@ -152,7 +152,7 @@ public:
 			x = values[front];
 			front = (front + 1) % maxsize;
 			counter--;
-			return x; // return x of type T
+			return x; 
 		}
 	}
 	
